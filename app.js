@@ -40,7 +40,7 @@ if (healthBar.value == 0) {
     petBtn.disabled = true;
     fetchBtn.disabled = true;
     loseMsg.style.display = "block";
-    timeAliveMsg.textContent = `Dog died after... ${timeAlive} seconds` 
+    timeAliveMsg.textContent = `Dog died after ${timeAlive} seconds` 
 } else {
     console.log("alive")
 }
