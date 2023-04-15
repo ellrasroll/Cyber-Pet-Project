@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cyber Pet</title>
+</head>
+<body>
+    
+    <div id="dogContainer">
+        <div id="stats">
+            <div id="statNames">
+                <ul>
+                    <li>Health: </li>
+                    <li>Hunger: </li>
+                    <li>Thirst: </li>
+                    <li>Happiness: </li>
+                </ul>
+            </div>
+            <div id="statBars">
+                <progress id="healthBar" max="100" value="100"></progress>
+                <progress id="hungerBar" max="100" value="100"></progress>
+                <progress id="thirstBar" max="100" value="100"></progress>
+                <progress id="happinessBar" max="100" value="100"></progress>
+            </div>
+        </div>
+        <div id="controlButtons">
+            <button id="eatBtn">Eat</button>
+            <button id="drinkBtn">Drink</button>
+            <button id="petBtn">Pet</button>
+            <button id="fetchBtn">Play Fetch</button>
+        </div>
+        <div id="dog">
+            <div id="loseMsg">
+                <h2>Game Over!</h2>
+                <p id="timeAliveMsg">Dog died after.. </p>
+                <button id="restartBtn">Restart</button>
+            </div>
+            <img id="dogImg" src="./dogImg.png" alt="dog">
+        </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

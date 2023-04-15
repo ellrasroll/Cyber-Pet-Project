@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dogContainer {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image:url("https://s42814.pcdn.co/wp-content/uploads/2021/04/dog_yard_final_sand_COLORFIX_tout-3-scaled.jpg.optimal.jpg");
+    width: 50%;
+    height: 475px;
+    text-align: center;
+}
+
+#stats {
+    display: flex;
+    width: 75%;
+    height: 25%;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+#statNames {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#statNames li {
+    padding-bottom: 4px;
+}
+
+#statBars {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+#healthBar {
+    background-color: green;
+    width: 80%;
+    height: 5px;
+}
+
+#hungerBar {
+    background-color: green;
+    width: 80%;
+    height: 5px;
+}
+
+#thirstBar {
+    background-color: green;
+    width: 80%;
+    height: 5px;
+}
+
+#happinessBar {
+    background-color: green;
+    width: 80%;
+    height: 5px;
+}
+
+#controlButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 50%;
+}
+
+#controlButtons button {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+#dog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#dogImg {
+    display: flex;
+    align-self: flex-end;
+}
+
+#loseMsg {
+    display: none;
+    background-color: antiquewhite;
+    padding: 20px;
+    width: 100vw;
+}
